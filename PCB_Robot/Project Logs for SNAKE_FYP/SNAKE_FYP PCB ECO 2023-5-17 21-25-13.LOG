@@ -1,0 +1,10 @@
+Removed Pin From Net: NetName=BAT Pin=BAT1-1
+Removed Pin From Net: NetName=GND Pin=BAT1-2
+Removed Member From Class: ClassName=SNAKE_FYP Member=BAT1
+Added Component: Designator=B1(18650VBAT)
+Added Component: Designator=B2(18650GND)
+Added Pin To Net: NetName=BAT Pin=B1-1
+Added Pin To Net: NetName=GND Pin=B2-1
+Added Member To Class: ClassName=SNAKE_FYP Member=Component B1 VBATHeader
+Added Member To Class: ClassName=SNAKE_FYP Member=Component B2 VGNDHeadeR
+Added Room: Name=SNAKE_FYP

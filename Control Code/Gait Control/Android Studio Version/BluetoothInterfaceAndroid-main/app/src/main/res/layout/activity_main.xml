@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="100"
+    tools:context=".MainActivity"
+    android:background="@color/black">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight = "10"
+        android:orientation="horizontal"
+        android:weightSum="1">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:paddingLeft="10dp">
+            <Spinner
+                android:id="@+id/idMASpinnerBT"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:backgroundTint="@color/white"
+                >
+            </Spinner>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5">
+            <Button
+                android:id="@+id/idMAButtonConnect"
+                android:text="Connect"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="10dp">
+
+            </Button>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="55"
+        android:orientation="vertical"
+        android:weightSum="100">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="15">
+
+            <TextView
+                android:id="@+id/idMATextViewReceiver"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="--> All logs will be visible here!!"
+                android:textSize="16dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingBottom="5dp"
+                android:textColor="@color/white"
+                android:gravity="bottom">
+
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="85"
+            android:gravity="end">
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/idMAShare"
+                android:layout_width="55dp"
+                android:layout_height="match_parent"
+
+                android:layout_marginRight="10dp"
+                android:backgroundTint="@color/purple_200"
+                android:src="@drawable/baseline_share_24"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:maxImageSize="30dp"
+                app:shapeAppearanceOverlay="@style/FABShapeStyle"/>
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/idMADelete"
+                android:layout_width="55dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="10dp"
+                android:backgroundTint="@color/purple_200"
+                android:src="@drawable/baseline_delete_24"
+                app:maxImageSize="30dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:shapeAppearanceOverlay="@style/FABShapeStyle"/>
+
+        </LinearLayout>
+
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="35"
+        android:weightSum="5"
+        >
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight = "2"
+            android:orientation="horizontal"
+            android:gravity="right"
+            android:paddingRight="10dp"
+            >
+
+            <Button
+                android:id="@+id/idMAButtonLeft"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:text="Left"
+                android:layout_gravity="center"
+
+                >
+
+            </Button>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight = "1"
+            android:orientation="vertical"
+            android:gravity="center">
+
+
+
+
+            <Button
+                android:id="@+id/idMAButtonFWD"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:text="FWD"
+                android:layout_gravity="center">
+
+            </Button>
+
+            <Button
+                android:id="@+id/idMAButtonSTOP"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:text="Stop"
+                android:layout_gravity="center">
+            </Button>
+
+            <Button
+                android:id="@+id/idMAButtonREV"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:text="REv"
+                android:layout_gravity="center">
+            </Button>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight = "2"
+            android:paddingLeft="10dp">
+
+            <Button
+                android:id="@+id/idMAButtonRight"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:text="right"
+                android:layout_gravity="center"></Button>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

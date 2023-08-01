@@ -1,0 +1,13 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : Project [SNAKE_FYP.PrjPcb]
+   Generated File[SNAKE_FYP-RoundHoles.TXT]
+   Generated File[SNAKE_FYP-SlotHoles.TXT]
+   Generated File[SNAKE_FYP.LDP]
+   Generated File[SNAKE_FYP.DRR]
+
+
+Files Generated   : 4
+Documents Printed : 0
+
+Finished Output Generation At 20:59:51 On 2023/5/18

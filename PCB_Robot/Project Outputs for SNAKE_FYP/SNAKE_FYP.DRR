@@ -1,0 +1,22 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: SNAKE_FYP.PcbDoc   2023/5/18  20:59:50
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII RoundHoles File : SNAKE_FYP-RoundHoles.TXT
+ASCII SlotHoles File : SNAKE_FYP-SlotHoles.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      12mil (0.305mm)                                           Round             109       PTH        14.81inch (376.19mm)
+T2      24mil (0.6mm)                                             Slot              4         PTH        1.14inch (29.03mm)
+T3      35mil (0.9mm)                                             Round             16        PTH        1.73inch (43.89mm)
+T4      36mil (0.92mm)                                            Round             4         PTH        0.28inch (7.00mm)
+T5      40mil (1.02mm)                                            Round             96        PTH        11.65inch (295.97mm)
+T6      138mil (3.5mm)                                            Round             2         PTH        1.30inch (33.15mm)
+T7      28mil (0.71mm)                                            Round             2         NPTH       0.31inch (8.00mm)
+T8      91mil (2.3mm)                                             Round             2         NPTH       0.52inch (13.14mm)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              235
+
+Total Processing Time (hh:mm:ss) : 00:00:01
