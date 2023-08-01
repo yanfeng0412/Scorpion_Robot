@@ -12,7 +12,7 @@ The main tasks of the project are as follows:
 
 This project primarily controls 25 servos, thus requiring two PCA9685 modules to expand the PWM signals for the servos. The communication between PCA9685 and the ESP main controller is established using I2C protocol. Additionally, the addresses of the two PCA9685 modules need to be set as 0x40 and 0x41 to distinguish the communication targets.
 
-## Documentation
+# Documentation
 1. 3D Model Scorpion Robot MG995
   The file is modeled based on the MG995 servo motor. The hand joints of the robot are driven by bevel gears to achieve freedom along the z-axis. Meanwhile, the tail joint of the robot is designed using a biomimetic mechanical finger structure as a reference.
 2. 3D Model Scorpion Robot SG90
