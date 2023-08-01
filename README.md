@@ -14,8 +14,10 @@ This project primarily controls 25 servos, thus requiring two PCA9685 modules to
 
 # Documentation
 ## 1. 3D Model Scorpion Robot MG995
+
   The file is modeled based on the MG995 servo motor. The hand joints of the robot are driven by bevel gears to achieve freedom along the z-axis. Meanwhile, the tail joint of the robot is designed using a biomimetic mechanical finger structure as a reference.
 ## 2. 3D Model Scorpion Robot SG90
+
    The file is primarily designed using the SG90 servo motor for the robot. However, due to the limited driving torque of the SG90 and issues with the quality of plastic servos, this design version faces challenges in achieving the set objectives. As a result, it is only included here for reference purposes.
 ## 3. Control Code
    Inside, it is mainly divided into the following sections:
