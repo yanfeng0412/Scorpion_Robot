@@ -1,4 +1,4 @@
-# Scorpion_Robot
+## Scorpion_Robot
  The hexapod scorpion robot is designed with MG995 servos to control the joint angles, providing 3 degrees of freedom for each joint. The robot has two hands and a tail joint designed using biomimetic principles. It uses both MG995 and SG90 servos for driving. The PWM signals for the servos are expanded to 32 channels using PCA9685.
  
 The main tasks of the project are as follows:
@@ -12,7 +12,7 @@ The main tasks of the project are as follows:
 
 This project primarily controls 25 servos, thus requiring two PCA9685 modules to expand the PWM signals for the servos. The communication between PCA9685 and the ESP main controller is established using I2C protocol. Additionally, the addresses of the two PCA9685 modules need to be set as 0x40 and 0x41 to distinguish the communication targets.
 
-# Documentation
+## Documentation
 1. 3D Model Scorpion Robot MG995
   The file is modeled based on the MG995 servo motor. The hand joints of the robot are driven by bevel gears to achieve freedom along the z-axis. Meanwhile, the tail joint of the robot is designed using a biomimetic mechanical finger structure as a reference.
 2. 3D Model Scorpion Robot SG90
