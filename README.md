@@ -28,7 +28,7 @@ This project primarily controls 25 servos, thus requiring two PCA9685 modules to
        3.1.2
        HTML Version (Arduino IDE + HTML)
    ### 3.2 Inverse Kinematic    
-T      The file mainly adjusts the robot's posture using inverse kinematics. Based on this, the inverse kinematics can be integrated with sensors like MPU6050 to achieve closed-loop control of the robot's motion/pose.
+       The file mainly adjusts the robot's posture using inverse kinematics. Based on this, the inverse kinematics can be integrated with sensors like MPU6050 to achieve closed-loop control of the robot's motion/pose.
 ## 4. ESPCAM
    By programming ESPCAM, this file is used for the vision system of the robot.
 ## 5. PCB_Robot
