@@ -17,7 +17,7 @@ This project primarily controls 25 servos, thus requiring two PCA9685 modules to
   The file is modeled based on the MG995 servo motor. The hand joints of the robot are driven by bevel gears to achieve freedom along the z-axis. Meanwhile, the tail joint of the robot is designed using a biomimetic mechanical finger structure as a reference.
 ##2. 3D Model Scorpion Robot SG90
    The file is primarily designed using the SG90 servo motor for the robot. However, due to the limited driving torque of the SG90 and issues with the quality of plastic servos, this design version faces challenges in achieving the set objectives. As a result, it is only included here for reference purposes.
-##3. Control Code
+## 3. Control Code
    Inside, it is mainly divided into the following sections:
    ### 3.1 Gait Control
        Programming the robot's gait using forward kinematics algorithms.The two files represent the user interfaces (UI) for the robot's control system. One is developed using Android Studio, and the other is an HTML version.
@@ -27,7 +27,7 @@ This project primarily controls 25 servos, thus requiring two PCA9685 modules to
        HTML Version (Arduino IDE + HTML)
    ### 3.2 Inverse Kinematic    
 T      The file mainly adjusts the robot's posture using inverse kinematics. Based on this, the inverse kinematics can be integrated with sensors like MPU6050 to achieve closed-loop control of the robot's motion/pose.
-4. ESPCAM
+## 4. ESPCAM
    By programming ESPCAM, this file is used for the vision system of the robot.
-5. PCB_Robot
+## 5. PCB_Robot
     The file is the PCB circuit design of the robot, created using Altium Designer 23 to layout the components on the module.
